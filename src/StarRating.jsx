@@ -29,7 +29,7 @@ function isFloat(n) {
 class StarRating extends React.Component {
 
   static propTypes = {
-    name: React.PropTypes.string.isRequired,
+    name: React.PropTypes.string,
     caption: React.PropTypes.string,
     totalStars: React.PropTypes.number.isRequired,
     rating: React.PropTypes.number,
